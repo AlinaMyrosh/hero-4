@@ -1,3 +1,7 @@
+* {
+  display: block;
+}
+
 h1,
 h2,
 h3,
@@ -20,14 +24,14 @@ img {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .container {
     width: 768px;
     padding: 0 32px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media (min-width: 1280px) {
   .container {
     width: 1280px;
     padding: 0 100px;
@@ -68,13 +72,13 @@ img {
     url(./images/hero-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 375px 370px;
+  background-size: cover;
   margin: 0 auto;
+  height: 370px;
+  max-width: 375px;
 }
 
-@media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media screen and (min-resolution: 192dpi) {
   .hero-img {
     background: linear-gradient(
         0deg,
@@ -85,7 +89,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .container {
     padding-top: 122px;
     padding-bottom: 50px;
@@ -109,12 +113,11 @@ img {
         rgba(20, 20, 20, 0.2) 100%
       ),
       url(./images/hero-tab.jpg);
-    background-size: 768px 539px;
+    height: 539px;
+    width: 768px;
   }
 
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  @media screen and (min-resolution: 192dpi) {
     .hero-img {
       background: linear-gradient(
           0deg,
@@ -124,9 +127,9 @@ img {
         url(./images/hero-tab@2x.jpg);
     }
   }
-}
+} */
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .container {
     padding-top: 238px;
   }
@@ -142,12 +145,11 @@ img {
         rgba(20, 20, 20, 0.2) 100%
       ),
       url(./images/hero-desk.jpg);
-    background-size: 650px 800px;
+    height: 800px;
+    width: 650px;
   }
 
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  @media screen and (min-resolution: 192dpi) {
     .hero-img {
       background: linear-gradient(
           0deg,
@@ -157,4 +159,4 @@ img {
         url(./images/hero-desk@2x.jpg);
     }
   }
-}
+} */
