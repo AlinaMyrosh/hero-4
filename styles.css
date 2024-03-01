@@ -1,7 +1,3 @@
-* {
-  display: block;
-}
-
 h1,
 h2,
 h3,
@@ -71,8 +67,7 @@ img {
     ),
     url(./images/hero-mob.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: bottom;
   margin: 0 auto;
   height: 370px;
   max-width: 375px;
@@ -127,9 +122,9 @@ img {
         url(./images/hero-tab@2x.jpg);
     }
   }
-} */
+}
 
-/* @media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .container {
     padding-top: 238px;
   }
