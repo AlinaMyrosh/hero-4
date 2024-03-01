@@ -82,6 +82,6 @@ img {
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(/images/hero-mob@2x.jpg);
+      url(./images/hero-mob@2x.jpg);
   }
 }
