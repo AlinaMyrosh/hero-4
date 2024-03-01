@@ -68,10 +68,8 @@ img {
     url(./images/hero-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 375px 370px;
   margin: 0 auto;
-  height: 370px;
-  max-width: 375px;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -111,8 +109,7 @@ img {
         rgba(20, 20, 20, 0.2) 100%
       ),
       url(./images/hero-tab.jpg);
-    height: 539px;
-    width: 768px;
+    background-size: 768px 539px;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -145,8 +142,7 @@ img {
         rgba(20, 20, 20, 0.2) 100%
       ),
       url(./images/hero-desk.jpg);
-    height: 800px;
-    width: 650px;
+    background-size: 650px 800px;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
