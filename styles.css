@@ -43,7 +43,7 @@ img {
   background-color: #576f35;
 }
 
-.container {
+.hero-container {
   padding-top: 100px;
   padding-bottom: 40px;
 }
@@ -153,6 +153,10 @@ img {
 
   .hero-title {
     margin-bottom: 128px;
+  }
+
+  .hero-text {
+    width: ;
   }
 
   .hero-img {
