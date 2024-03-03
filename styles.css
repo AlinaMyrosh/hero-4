@@ -92,6 +92,22 @@ img {
   }
 }
 
+@media screen and (max-width: 374.99px) {
+  .hero-img {
+    background: linear-gradient(
+        0deg,
+        rgba(20, 20, 20, 0.2) 0%,
+        rgba(20, 20, 20, 0.2) 100%
+      ),
+      url(./images/hero-mob.jpg),
+      lightgray -21.701px -17.796px / 115.12% 121.468% no-repeat;
+    width: 100vw;
+    height: 370px;
+    margin: 0 auto;
+    background-position: center;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     padding-top: 122px;
